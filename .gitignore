@@ -1,0 +1,9 @@
+/node_modules
+/components
+.buildpath
+.project
+.idea
+*.sublime-project
+*.sublime-workspace
+.settings/
+/styleguide/lib/vendor
