@@ -73,9 +73,12 @@
   });
 
   WebFont.load({
-        google: {
-            families: ['Montserrat:300,300i,400,400i,700,700i']
-        }
-    });
+      google: {
+          families: ['Montserrat:300,300i,400,400i,700,700i']
+      }
+  });
+
 
 })(jQuery); // End of use strict
+
+

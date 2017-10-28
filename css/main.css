@@ -376,3 +376,16 @@ b {
 footer p {
   font-size: 11px;
 }
+
+
+blockquote {
+  width: 100%;
+  font-size: 22px;
+  padding: 0 40px;
+}
+
+cite {
+  font-size: 14px;
+  font-style: italic;
+  color: ;
+}
