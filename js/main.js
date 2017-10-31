@@ -56,28 +56,22 @@
     distance: '0px'
   }, 300);
 
-  // Magnific popup calls
-  $('.popup-gallery').magnificPopup({
-    delegate: 'a',
-    type: 'image',
-    tLoading: 'Loading image #%curr%...',
-    mainClass: 'mfp-img-mobile',
-    gallery: {
-      enabled: true,
-      navigateByImgClick: true,
-      preload: [0, 1]
-    },
-    image: {
-      tError: '<a href="%url%">The image #%curr%</a> could not be loaded.'
-    }
-  });
 
-  WebFont.load({
+  $(window).load(function() {
+     WebFont.load({
       google: {
-          families: ['Montserrat:300,300i,400,400i,700,700i']
+        families: ['Montserrat:300,300i,400,400i,700,700i']
       }
-  });
+    });
 
+    $('.flexslider').flexslider({
+      animation: "slide",
+      animationLoop: false,
+      itemMargin: 5,
+      pausePlay: false
+    });
+
+  });
 
 })(jQuery); // End of use strict
 
